@@ -252,3 +252,21 @@ button:hover {
     background-color: #0056b3;
 }
 
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .job-posting {
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    #job-listings {
+        padding: 0 10px;
+    }
+}
+
