@@ -1,253 +1,4 @@
 
-/* Engineer Background Styling without Overlay */
-#engineer-background {
-    position: relative;
-    text-align: center;
-    margin: 40px 0;
-}
-
-.engineer-image {
-    width: 100%;
-    height: auto;
-    opacity: 1; /* Fully visible */
-}
-
-/* Removed the Overlay */
-#engineer-background::before {
-    content: none;
-}
-
-
-/* Remove Text Animation */
-#welcome-message {
-    position: static;
-    opacity: 1;
-    animation: none; /* Disable animation */
-}
-
-
-.navbar-menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-around;
-}
-
-.navbar-menu li {
-    display: inline;
-}
-
-.navbar-menu li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-}
-
-.navbar-toggle {
-    display: none;
-    background-color: #FF5733;
-    color: white;
-    border: none;
-    font-size: 1.5rem;
-    padding: 10px;
-    cursor: pointer;
-}
-
-/* Responsive Design: Show the toggle button and hide the menu on small screens */
-
-
-/* Job Card Styling */
-.job-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 16px;
-    margin: 16px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: box-shadow 0.3s ease;
-}
-
-.job-card:hover {
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-.job-card .company {
-    color: #555;
-    font-size: 14px;
-}
-
-.job-card .location {
-    color: #777;
-    font-size: 12px;
-}
-
-.job-card .apply-button {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    transition: background-color 0.3s ease;
-}
-
-.job-card .apply-button:hover {
-    background-color: #0056b3;
-}
-
-
-/* Header */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background: #f4f4f4;
-}
-
-header .logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-header nav a {
-    text-decoration: none;
-    color: #333;
-}
-
-header .search-bar {
-    display: flex;
-}
-
-header .search-bar input {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-header .search-bar button {
-    padding: 10px 20px;
-    background: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-}
-
-/* Hero Section */
-.hero {
-    background: url("path/to/hero-image.jpg") no-repeat center center;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
-}
-
-.hero h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.hero-search {
-    margin-top: 20px;
-}
-
-.hero-search input {
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-}
-
-.hero-search button {
-    padding: 10px 20px;
-    background: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* Job Listings */
-.job-listings {
-    padding: 20px;
-}
-
-.job-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 16px;
-    margin: 16px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.job-card h3 {
-    margin: 0;
-}
-
-.job-card .apply-button {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 4px;
-    text-decoration: none;
-}
-
-/* Benefits */
-.benefits {
-    background: #f9f9f9;
-    padding: 20px;
-}
-
-.benefit {
-    margin-bottom: 20px;
-}
-
-/* Testimonials */
-.testimonials {
-    padding: 20px;
-}
-
-.testimonials blockquote {
-    border-left: 4px solid #007bff;
-    padding-left: 20px;
-    font-style: italic;
-}
-
-/* Footer */
-footer {
-    background: #f4f4f4;
-    padding: 20px;
-    text-align: center;
-}
-
-.footer-links a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #333;
-}
-
-.newsletter input {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-.newsletter button {
-    padding: 10px 20px;
-    background: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-
 /* General Reset */
 * {
     margin: 0;
@@ -255,114 +6,108 @@ footer {
     box-sizing: border-box;
 }
 
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
 /* Header */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background: #f4f4f4;
-}
-
-header .logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-header nav a {
-    text-decoration: none;
-    color: #333;
-}
-
-/* Hero Section */
-.hero {
-    background: url("path/to/hero-image.jpg") no-repeat center center;
-    background-size: cover;
+    background-color: #333;
     color: white;
+    padding: 10px 0;
     text-align: center;
-    padding: 100px 20px;
 }
 
-.hero h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.hero-search {
-    margin-top: 20px;
-}
-
-.hero-search input {
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-}
-
-.hero-search button {
-    padding: 10px 20px;
-    background: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* Job Listings */
-.job-listings {
-    padding: 20px;
-}
-
-.job-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 16px;
-    margin: 16px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.job-card h3 {
+header h1 {
     margin: 0;
 }
 
-.job-card .apply-button {
-    background-color: #007bff;
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+header nav a {
     color: white;
-    padding: 10px 20px;
-    border-radius: 4px;
     text-decoration: none;
+    padding: 10px 15px;
+}
+
+header nav a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-trigger {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-menu a:last-child {
+    border-bottom: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown:hover .dropdown-trigger {
+    background-color: #555;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    text-align: center;
 }
 
 /* Footer */
 footer {
-    background: #f4f4f4;
-    padding: 20px;
-    text-align: center;
-}
-
-.footer-links a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #333;
-}
-
-.newsletter input {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-.newsletter button {
-    padding: 10px 20px;
-    background: #007bff;
+    background-color: #333;
     color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
 }
 
