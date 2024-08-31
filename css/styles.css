@@ -532,3 +532,36 @@ a:hover {
     }
 }
 
+
+/* Welcome Message Styling */
+#welcome-message {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 2rem;
+    color: #fff;
+    animation: slideInFade 6s infinite;
+}
+
+/* Keyframes for Slide and Fade Animation */
+@keyframes slideInFade {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    25% {
+        transform: translateX(10%);
+        opacity: 1;
+    }
+    75% {
+        transform: translateX(90%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
