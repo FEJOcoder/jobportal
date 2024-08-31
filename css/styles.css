@@ -26,12 +26,6 @@
 }
 
 
-/* Navbar Styles */
-.navbar {
-    background-color: #FF5733;
-    padding: 15px;
-}
-
 .navbar-menu {
     list-style-type: none;
     padding: 0;
@@ -61,26 +55,4 @@
 }
 
 /* Responsive Design: Show the toggle button and hide the menu on small screens */
-@media (max-width: 768px) {
-    .navbar-menu {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-        background-color: #FF5733;
-    }
-
-    .navbar-menu.show {
-        display: flex;
-    }
-
-    .navbar-toggle {
-        display: block;
-    }
-
-    .navbar-menu li {
-        display: block;
-        margin: 10px 0;
-    }
-}
 
