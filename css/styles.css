@@ -382,3 +382,30 @@ a:hover {
 }
 
 
+
+/* Search Bar Styling */
+#search-container {
+    float: right;
+    margin-right: 20px;
+}
+
+#search-form {
+    display: flex;
+    gap: 10px;
+}
+
+#job-search, #city-filter, #job-type-filter {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#search-form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
