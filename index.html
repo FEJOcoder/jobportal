@@ -88,3 +88,28 @@
 
 
 
+
+<nav class="navbar">
+    <button class="navbar-toggle" id="navbar-toggle">
+        ☰
+    </button>
+    <ul class="navbar-menu" id="navbar-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+
+<script>
+    document.getElementById("navbar-toggle").addEventListener("click", function() {
+        var menu = document.getElementById("navbar-menu");
+        if (menu.classList.contains("show")) {
+            menu.classList.remove("show");
+        } else {
+            menu.classList.add("show");
+        }
+    });
+</script>
+
