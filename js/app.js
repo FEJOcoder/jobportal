@@ -72,3 +72,49 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Modal for Job Applications
+document.addEventListener('DOMContentLoaded', function() {
+    const applyButtons = document.querySelectorAll('.apply-button');
+    const modal = document.querySelector('.modal');
+    const closeModal = document.querySelector('.modal-close');
+
+    applyButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            modal.classList.add('is-active');
+        });
+    });
+
+    closeModal.addEventListener('click', function() {
+        modal.classList.remove('is-active');
+    });
+
+    window.addEventListener('click', function(event) {
+        if (event.target === modal) {
+            modal.classList.remove('is-active');
+        }
+    });
+});
+
+// Modal for Job Applications
+document.addEventListener('DOMContentLoaded', function() {
+    const applyButtons = document.querySelectorAll('.apply-button');
+    const modal = document.querySelector('.modal');
+    const closeModal = document.querySelector('.modal-close');
+
+    applyButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            modal.classList.add('is-active');
+        });
+    });
+
+    closeModal.addEventListener('click', function() {
+        modal.classList.remove('is-active');
+    });
+
+    window.addEventListener('click', function(event) {
+        if (event.target === modal) {
+            modal.classList.remove('is-active');
+        }
+    });
+});
