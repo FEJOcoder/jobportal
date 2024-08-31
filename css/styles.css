@@ -56,3 +56,43 @@
 
 /* Responsive Design: Show the toggle button and hide the menu on small screens */
 
+
+/* Job Card Styling */
+.job-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.job-card .company {
+    color: #555;
+    font-size: 14px;
+}
+
+.job-card .location {
+    color: #777;
+    font-size: 12px;
+}
+
+.job-card .apply-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.job-card .apply-button:hover {
+    background-color: #0056b3;
+}
+
