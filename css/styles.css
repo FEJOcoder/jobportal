@@ -270,3 +270,115 @@ button:hover {
     }
 }
 
+
+/* Updated Color Scheme */
+body {
+    background-color: #f0f8ff; /* Light Blue Background */
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #FF5733; /* Vibrant Orange */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #FFD700; /* Gold */
+}
+
+/* Job Listings */
+.job-posting {
+    background-color: #FFD700; /* Gold */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.job-posting:hover {
+    background-color: #FF4500; /* OrangeRed */
+    transform: translateY(-5px);
+}
+
+/* Buttons */
+button {
+    background-color: #28a745; /* Green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838; /* Darker Green */
+}
+
+/* Footer */
+footer {
+    background-color: #007BFF; /* Blue */
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* Animations */
+header {
+    animation: slideInDown 1s ease-out;
+}
+
+button {
+    animation: fadeInUp 1s ease-out;
+}
+
+@keyframes slideInDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+/* Hover Effects */
+a:hover {
+    color: #FF4500; /* OrangeRed */
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+}
+
+.job-posting:hover {
+    background-color: #FF6347; /* Tomato */
+    transform: scale(1.05);
+}
+
+
