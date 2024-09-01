@@ -1,112 +1,8 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 8bef1a39b1e8098a529addd5ea5be89cabdb3bde
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-    <title>Job Finder - Your Dream Job Awaits</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <div class="logo">JobFinder</div>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#how-it-works">How It Works</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#signup" class="cta">Sign Up</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section id="hero">
-        <div class="hero-content">
-            <h1>Find Your Dream Job Today</h1>
-            <p>Browse thousands of jobs from top companies and apply online in just a few clicks.</p>
-            <div class="search-bar">
-                <input type="text" placeholder="Job title, company, or keyword">
-                <input type="text" placeholder="Location">
-                <button class="btn-primary">Search Jobs</button>
-            </div>
-            <a href="#job-listings" class="btn-secondary">Browse Jobs</a>
-        </div>
-    </section>
-
-    <section id="features">
-        <div class="container">
-            <h2>Why Choose Us?</h2>
-            <div class="feature-list">
-                <div class="feature-item">
-                    <h3>Thousands of Jobs</h3>
-                    <p>Access a wide range of job opportunities in various industries.</p>
-                </div>
-                <div class="feature-item">
-                    <h3>Easy to Apply</h3>
-                    <p>Apply for jobs with just a few clicks.</p>
-                </div>
-                <div class="feature-item">
-                    <h3>Trusted by Top Companies</h3>
-                    <p>Our platform is trusted by leading companies worldwide.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="how-it-works">
-        <div class="container">
-            <h2>How It Works</h2>
-            <div class="steps">
-                <div class="step">
-                    <h3>1. Search for Jobs</h3>
-                    <p>Use our powerful search tools to find the perfect job for you.</p>
-                </div>
-                <div class="step">
-                    <h3>2. Apply Online</h3>
-                    <p>Submit your application directly through our platform.</p>
-                </div>
-                <div class="step">
-                    <h3>3. Get Hired</h3>
-                    <p>Get noticed by employers and land your dream job.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="testimonials">
-        <div class="container">
-            <h2>What Our Users Say</h2>
-            <div class="testimonial-list">
-                <div class="testimonial-item">
-                    <p>"JobFinder helped me find the perfect job in no time!"</p>
-                    <h4>Jane Doe, Marketing Specialist</h4>
-                </div>
-                <div class="testimonial-item">
-                    <p>"The application process was so easy and straightforward."</p>
-                    <h4>John Smith, Software Developer</h4>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="footer-links">
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Service</a>
-                <a href="#">Contact Us</a>
-            </div>
-            <p>&copy; 2024 JobFinder. All rights reserved.</p>
-        </div>
-=======
     <title>FEJO Job Portal</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -128,71 +24,57 @@
                 <button>Search</button>
             </div>
         </section>
-        <section class="featured-jobs">
+        <section class="job-listings">
             <h2>Featured Jobs</h2>
-            <!-- Job listings will go here -->
+            <div class="job-card">
+                <h3>Software Engineer</h3>
+                <p>Location: San Francisco, CA</p>
+                <p>Company: Tech Innovations</p>
+                <button>Apply Now</button>
+            </div>
+            <div class="job-card">
+                <h3>Product Manager</h3>
+                <p>Location: New York, NY</p>
+                <p>Company: Innovate Inc.</p>
+                <button>Apply Now</button>
+            </div>
+        </section>
+        <section class="advanced-search">
+            <h2>Advanced Job Search</h2>
+            <form id="advanced-search-form">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" placeholder="Enter city or state">
+                
+                <label for="job-type">Job Type:</label>
+                <select id="job-type" name="job-type">
+                    <option value="full-time">Full-Time</option>
+                    <option value="part-time">Part-Time</option>
+                    <option value="contract">Contract</option>
+                    <option value="internship">Internship</option>
+                </select>
+                
+                <label for="experience-level">Experience Level:</label>
+                <select id="experience-level" name="experience-level">
+                    <option value="entry">Entry Level</option>
+                    <option value="mid">Mid Level</option>
+                    <option value="senior">Senior Level</option>
+                </select>
+                
+                <button type="submit">Search Jobs</button>
+            </form>
+        </section>
+        <section class="featured-companies">
+            <h2>Featured Companies</h2>
+            <div class="company-logos">
+                <img src="images/company1.png" alt="Company 1">
+                <img src="images/company2.png" alt="Company 2">
+                <img src="images/company3.png" alt="Company 3">
+            </div>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 FEJO Job Portal</p>
->>>>>>> 8bef1a39b1e8098a529addd5ea5be89cabdb3bde
     </footer>
-
+    <script src="js/app.js"></script>
 </body>
 </html>
-
-
-<section class="job-listings">
-    <h2>Featured Jobs</h2>
-    <div class="job-card">
-        <h3>Software Engineer</h3>
-        <p>Location: San Francisco, CA</p>
-        <p>Company: Tech Innovations</p>
-        <button>Apply Now</button>
-    </div>
-    <div class="job-card">
-        <h3>Product Manager</h3>
-        <p>Location: New York, NY</p>
-        <p>Company: Innovate Inc.</p>
-        <button>Apply Now</button>
-    </div>
-    <!-- Additional job cards can be added here -->
-</section>
-
-
-<section class="advanced-search">
-    <h2>Advanced Job Search</h2>
-    <form id="advanced-search-form">
-        <label for="location">Location:</label>
-        <input type="text" id="location" name="location" placeholder="Enter city or state">
-        
-        <label for="job-type">Job Type:</label>
-        <select id="job-type" name="job-type">
-            <option value="full-time">Full-Time</option>
-            <option value="part-time">Part-Time</option>
-            <option value="contract">Contract</option>
-            <option value="internship">Internship</option>
-        </select>
-        
-        <label for="experience-level">Experience Level:</label>
-        <select id="experience-level" name="experience-level">
-            <option value="entry">Entry Level</option>
-            <option value="mid">Mid Level</option>
-            <option value="senior">Senior Level</option>
-        </select>
-        
-        <button type="submit">Search Jobs</button>
-    </form>
-</section>
-
-
-<section class="featured-companies">
-    <h2>Featured Companies</h2>
-    <div class="company-logos">
-        <img src="images/company1.png" alt="Company 1">
-        <img src="images/company2.png" alt="Company 2">
-        <img src="images/company3.png" alt="Company 3">
-        <!-- Add more company logos as needed -->
-    </div>
-</section>
-
