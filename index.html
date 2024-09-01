@@ -4,68 +4,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FEJO Job Portal</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Job Finder - Your Dream Job Awaits</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>FEJO Job Portal</h1>
+            <div class="logo">JobFinder</div>
             <nav>
-                <a href="#home">Home</a>
-                <a href="#jobs">Jobs</a>
-                <a href="#about">About Us</a>
-                <a href="#contact">Contact</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#signup" class="cta">Sign Up</a></li>
+                </ul>
             </nav>
-            <div class="dropdown">
-                <button class="dropdown-trigger">Options</button>
-                <div class="dropdown-menu">
-                    <a href="#profile">Profile</a>
-                    <a href="#settings">Settings</a>
-                    <a href="#logout">Logout</a>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Find Your Dream Job Today</h1>
+            <p>Browse thousands of jobs from top companies and apply online in just a few clicks.</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Job title, company, or keyword">
+                <input type="text" placeholder="Location">
+                <button class="btn-primary">Search Jobs</button>
+            </div>
+            <a href="#job-listings" class="btn-secondary">Browse Jobs</a>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <h3>Thousands of Jobs</h3>
+                    <p>Access a wide range of job opportunities in various industries.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Easy to Apply</h3>
+                    <p>Apply for jobs with just a few clicks.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Trusted by Top Companies</h3>
+                    <p>Our platform is trusted by leading companies worldwide.</p>
                 </div>
             </div>
         </div>
-    </header>
-    <main>
-        <section id="search">
-            <div class="container">
-                <h2>Find Your Dream Job</h2>
-                <input type="text" id="search-bar" placeholder="Search for jobs...">
-                <button id="search-button">Search</button>
+    </section>
+
+    <section id="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <h3>1. Search for Jobs</h3>
+                    <p>Use our powerful search tools to find the perfect job for you.</p>
+                </div>
+                <div class="step">
+                    <h3>2. Apply Online</h3>
+                    <p>Submit your application directly through our platform.</p>
+                </div>
+                <div class="step">
+                    <h3>3. Get Hired</h3>
+                    <p>Get noticed by employers and land your dream job.</p>
+                </div>
             </div>
-        </section>
-        <section id="job-listings" class="container">
-            <h2>Featured Jobs</h2>
-            <!-- Job listings will be dynamically loaded here -->
-        </section>
-        <section id="about" class="container">
-            <h2>About Us</h2>
-            <p>We connect job seekers with their dream jobs across the globe. Our platform offers a wide range of job listings and resources to help you find the right fit.</p>
-        </section>
-        <section id="contact" class="container">
-            <h2>Contact Us</h2>
-            <form id="contact-form">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-    </main>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Users Say</h2>
+            <div class="testimonial-list">
+                <div class="testimonial-item">
+                    <p>"JobFinder helped me find the perfect job in no time!"</p>
+                    <h4>Jane Doe, Marketing Specialist</h4>
+                </div>
+                <div class="testimonial-item">
+                    <p>"The application process was so easy and straightforward."</p>
+                    <h4>John Smith, Software Developer</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
-            <p>&copy; 2024 FEJO Job Portal</p>
-            <nav>
-                <a href="#privacy">Privacy Policy</a>
-                <a href="#terms">Terms of Service</a>
-            </nav>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <p>&copy; 2024 JobFinder. All rights reserved.</p>
         </div>
     </footer>
-    <script src="js/app.js"></script>
+
 </body>
 </html>
 
