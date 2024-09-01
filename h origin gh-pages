@@ -1,0 +1,161 @@
+[33mcommit 6777cea7353027f081d56fdf84f592710ea712d9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mgh-pages[m[33m, [m[1;31morigin/gh-pages[m[33m)[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 12:54:28 2024 +0200
+
+    Added collapsible navigation menu
+
+[33mcommit ebd6bd5f039feb75c8cbc176e6c74dfa7052b4fe[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 12:52:47 2024 +0200
+
+    Removed header with welcome message
+
+[33mcommit e6f8272266e8204137020f9b04df73a8db482201[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 12:50:50 2024 +0200
+
+    Removed black faint overlay and text animation
+
+[33mcommit adf9a715ad442c885cad8c2bdca1f049211668d8[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 12:44:50 2024 +0200
+
+    Removed text
+
+[33mcommit f383bc980ee01ce266147fdc0f4e14301cb781c4[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 12:42:32 2024 +0200
+
+    Added sliding and fading animation to the welcome message
+
+[33mcommit 02e7bc5a68c02f163159ba67d5c0a4982db7d800[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 12:37:32 2024 +0200
+
+    Added ripple animation to the engineer image
+
+[33mcommit fcaffb59f24202b90a1af9f7c0876320228fd5bd[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 12:36:15 2024 +0200
+
+    Centered the image, made it more faint, updated text and its style
+
+[33mcommit 704b61e60a43cece4cdba2886f76ee1f6ffccefa[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 12:31:22 2024 +0200
+
+    Integrated Engineer.png image into the background with overlay
+
+[33mcommit 8fcceac949cad698a77ebb2c2f26dec24631ab79[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 12:21:01 2024 +0200
+
+    Added search bar with city and job type filters
+
+[33mcommit 236aec834eeb8d0dd36fda7012eab73ddd6b4448[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 12:14:55 2024 +0200
+
+    Added vibrant color scheme, animations, and hover effects
+
+[33mcommit d940c0c414c39e1e2311b3c6191eca1ea49d7de2[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 12:11:26 2024 +0200
+
+    Added responsive design
+
+[33mcommit ec7e110d9ea97a5d65354ae41a03a450230e6003[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 12:11:11 2024 +0200
+
+    Enhanced button styling and interactivity
+
+[33mcommit 269b7bfde870e2bf736a3a4d24677ddd3f47dc5c[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 12:10:21 2024 +0200
+
+    Added footer section
+
+[33mcommit 20e151e43fb0f0852e7756a89619b7cdd556abd4[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 12:09:53 2024 +0200
+
+    Improved layout and typography
+
+[33mcommit a3639db11101b2d077dcb50f866114de96ae1ff6[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 12:03:29 2024 +0200
+
+    Updated styles.css and app.js, added package.json and server.js
+
+[33mcommit da17a46bd978c3c519719a9b6fb8afe02af44887[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 11:20:39 2024 +0200
+
+    Added modal structure to index.html
+
+[33mcommit 0617f96f938242b897950dc90734c53e6fcb3b97[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 09:10:14 2024 +0200
+
+    Added form validation, dynamic job listings, and user interaction enhancements
+
+[33mcommit ab50085cf0264ddbdb5e5337c1ffa0a56ac21a05[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 09:04:55 2024 +0200
+
+    Added basic JavaScript with app.js and linked to all HTML files
+
+[33mcommit cc016e6ddd080c5357d68b35f05ca4df051ffdb6[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 09:03:31 2024 +0200
+
+    Added basic styling with styles.css and linked to all HTML files
+
+[33mcommit f6089e744983b842b3d53a83d3bc5e75e09825ca[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 09:02:12 2024 +0200
+
+    Added contact.html page
+
+[33mcommit a049c6836df14490f8a54bd46d83a50a2c5db32e[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 09:01:28 2024 +0200
+
+    Added about.html page
+
+[33mcommit fd35d8566098f350ee67d432c2f2dc0baae0b047[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 09:00:49 2024 +0200
+
+    Added news-article.html page
+
+[33mcommit 4fe7e76db3f042ac33c9422dfbaac84c74f78bc2[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 09:00:12 2024 +0200
+
+    Added news.html page
+
+[33mcommit 89f9e465148b9fa3e93a6167cb2299975253fdd5[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 08:59:37 2024 +0200
+
+    Added job-details.html page
+
+[33mcommit 157ba3df32424a8d257dd938490f5e3427da290e[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 08:58:33 2024 +0200
+
+    Added jobs.html page
+
+[33mcommit 60e48218daa142cfaff57e4aa171ce8d65f0023b[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 08:57:38 2024 +0200
+
+    Added index.html
+
+[33mcommit 26349d6fbef88047cdf2068bec407170b591a3ac[m
+Author: Fejocoder <Goldenoutlookinterlinks@gmail.com>
+Date:   Sat Aug 31 08:37:20 2024 +0200
+
+    Add README.md
