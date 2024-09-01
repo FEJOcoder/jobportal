@@ -1,213 +1,78 @@
-/* Basic reset for consistent styling across browsers */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+/* Media Queries for Responsive Design */
+
+/* Tablet Portrait and Smaller Devices */
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav a {
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 20px;
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .search-bar {
+        flex-direction: column;
+    }
+
+    .search-bar input,
+    .search-bar button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .job-card {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    .contact,
+    .testimonials {
+        padding: 15px;
+    }
 }
 
-/* Body styling */
-body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    background-color: #f8f9fa;
-    color: #333;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
+/* Mobile Devices */
+@media (max-width: 480px) {
+    .hero h2 {
+        font-size: 1.2rem;
+    }
 
-/* Header styling */
-header {
-    background: #007bff; /* Brighter blue */
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
+    .search-bar input,
+    .search-bar button {
+        font-size: 0.9rem;
+    }
 
-header h1 {
-    font-size: 2rem;
-    font-weight: bold;
-}
+    .job-card {
+        font-size: 0.9rem;
+    }
 
-header nav {
-    margin-top: 10px;
-}
+    .contact form {
+        flex-direction: column;
+    }
 
-header nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: 500;
-    transition: color 0.3s ease;
-}
+    .contact input,
+    .contact textarea,
+    .contact button {
+        width: 100%;
+    }
 
-header nav a:hover {
-    color: #ffeb3b; /* Yellow hover effect */
-}
-
-/* Main content styling */
-main {
-    flex: 1;
-    padding: 20px;
-    background-color: #ffffff;
-    margin: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-h1, h2 {
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.hero {
-    background: #007bff;
-    color: #fff;
-    padding: 50px;
-    text-align: center;
-    border-radius: 8px;
-    margin-bottom: 20px;
-}
-
-.hero h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-.search-bar {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.search-bar input {
-    padding: 15px;
-    width: 50%;
-    border-radius: 5px 0 0 5px;
-    border: none;
-    outline: none;
-    font-size: 1rem;
-}
-
-.search-bar button {
-    padding: 15px;
-    border: none;
-    background-color: #ffeb3b;
-    color: #333;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.search-bar button:hover {
-    background-color: #ffca28;
-}
-
-/* Job Listings styling */
-.job-listings h2 {
-    font-size: 2rem;
-    color: #007bff;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.job-card {
-    background-color: #f8f9fa;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease;
-}
-
-.job-card h3 {
-    font-size: 1.5rem;
-    color: #007bff;
-    margin-bottom: 10px;
-}
-
-.job-card p {
-    margin-bottom: 10px;
-    color: #555;
-}
-
-.job-card button {
-    padding: 10px 20px;
-    background-color: #28a745;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-.job-card button:hover {
-    background-color: #218838;
-}
-
-.job-card:hover {
-    transform: translateY(-5px);
-}
-
-/* Footer styling */
-footer {
-    background: #007bff;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-}
-
-footer p {
-    margin: 0;
-}
-
-footer nav a {
-    color: #ffeb3b;
-    text-decoration: none;
-    margin: 0 15px;
-}
-
-footer nav a:hover {
-    text-decoration: underline;
-}
-
-/* Dropdown menu styles */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-.dropdown-menu a {
-    color: #333;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    transition: background-color 0.3s ease;
-}
-
-.dropdown-menu a:hover {
-    background-color: #f1f1f1;
-}
-
-.dropdown.show .dropdown-menu {
-    display: block;
+    .contact label {
+        margin-bottom: 5px;
+    }
 }
 
